@@ -13,8 +13,7 @@ import Link from 'next/link';
 
 
 const Login = (data: Props) => {
-  
-  const { setToken, setUser } = useAppContext();
+
   
   const { tenant, setTenant } = useAppContext();
   useEffect(()=> {
@@ -27,12 +26,6 @@ const Login = (data: Props) => {
   const [password, setPassword] = useState('');
 
   const handleSubmit = () => {
-    setToken('12345');
-    setUser({
-      name: "Guerlhandi",
-      email: 'gguerlandi@gmail.com'
-    });
-    router.push(`/${data.tenant.slug}`);
   }
 
   const handleSignUp = () => {
