@@ -1,0 +1,145 @@
+.container {
+    background-color: #fff;
+}
+
+.headerArea {
+    position: absolute;
+    left: 24px;
+    top: 64px;
+    right: 24px;
+}
+
+.headerBg {
+    height: 400px;
+    background-color: #333;
+    background-image: url('/assets/product-bg.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.productImage {
+    text-align: center;
+    margin-top: -250px;
+}
+
+.productImage img {
+    width: auto;
+    height: 350px;
+}
+
+.category {
+    font-weight: 500;
+    font-size: 18px;
+    color: #1B1B1B;
+    margin: 0 24px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #1B1B1B;
+    margin: 0 24px;
+    padding-bottom: 24px;
+    border-bottom: 1.5px solid #000;
+    width: fit-content;
+    position: relative;
+}
+
+.line {
+    border-top: 1.5px solid #E2E2E2;
+    margin: -1.5px 24px 0 24px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(27, 27, 27, .5);
+    margin: 24px;
+}
+
+.qtText {
+    font-weight: 400;
+    font-size: 16px;
+    color: #1B1B1B;
+    margin: 0 24px 16px 24px;
+}
+
+.area {
+    margin: 0 24px;
+    display: flex;
+    align-items: center;
+}
+
+.areaLeft {
+
+}
+
+.areaRight {
+    flex: 1;
+    text-align: right;
+    font-weight: 600;
+    font-size: 40px;
+    color: #000;
+}
+
+.calculationArea {
+    font-weight: 500;
+    font-size: 16px;
+    color: #1B1B1B;
+    margin: 0 24px;
+    padding-top: 10px;
+}
+
+.input {
+    font-weight: 600;
+    font-size: 20px;
+    color: #1B1B1B;
+    margin: 20px 24px 16px 24px;
+    padding: 0 10px;
+    justify-content: center;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    border: 2px solid #F2F4F5;
+    border-radius: 5px;
+    overflow: hidden;
+    
+
+
+}
+
+.select{
+    font-weight: 600;
+    font-size: 20px;
+    color: #1B1B1B;
+    margin: 20px 24px 16px 24px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 2px solid #F2F4F5;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+
+.produto {
+  padding-top: 20px;
+  font-size: 20px;
+  line-height: 1.1;
+
+}
+
+.p {
+    font-weight: 500;
+    font-size: 17px;
+    color: #1B1B1B;
+    margin: 0 24px;
+    justify-content: center;
+}
+
+.buttonArea {
+    margin: 50px 24px;
+    
+}
